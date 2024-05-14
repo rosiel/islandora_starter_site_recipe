@@ -137,6 +137,7 @@ config:
         - 'access comments'
         - 'access content'
         - 'access site-wide contact form'
+        - 'use text format restricted_html'
         - 'view media'
     user.role.authenticated:
       grantPermissions:
@@ -148,4 +149,5 @@ config:
         - 'post comments'
         - 'skip comment approval'
         - 'use text format basic_html'
+        - 'use text format restricted_html'
         - 'view media'
