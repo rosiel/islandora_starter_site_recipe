@@ -122,3 +122,9 @@ install:
   - views
   - olivero
   - claro
+config:
+  actions:
+    system.site:
+      simple_config_update:
+        page.front: /collections
+        name: 'Islandora Recipes Starter Site'
