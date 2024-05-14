@@ -137,6 +137,7 @@ config:
         - 'access comments'
         - 'access content'
         - 'access site-wide contact form'
+        - 'restful get oai_pmh'
         - 'use text format restricted_html'
         - 'view media'
     user.role.authenticated:
@@ -147,6 +148,7 @@ config:
         - 'access site-wide contact form'
         - 'opt-in or out of matomo tracking'
         - 'post comments'
+        - 'restful get oai_pmh'
         - 'skip comment approval'
         - 'use text format basic_html'
         - 'use text format restricted_html'
