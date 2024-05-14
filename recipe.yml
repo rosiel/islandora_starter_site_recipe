@@ -140,3 +140,15 @@ config:
         - 'restful get oai_pmh'
         - 'use text format restricted_html'
         - 'view media'
+    user.role.authenticated:
+      grantPermissions:
+        - 'access comments'
+        - 'access content'
+        - 'access shortcuts'
+        - 'access site-wide contact form'
+        - 'opt-in or out of matomo tracking'
+        - 'post comments'
+        - 'restful get oai_pmh'
+        - 'skip comment approval'
+        - 'use text format basic_html'
+        - 'view media'
