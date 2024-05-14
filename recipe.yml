@@ -132,3 +132,11 @@ config:
       simple_config_update:
         default: olivero
         admin: claro
+    user.role.anonymous:
+      grantPermissions:
+        - 'access comments'
+        - 'access content'
+        - 'access site-wide contact form'
+        - 'restful get oai_pmh'
+        - 'use text format restricted_html'
+        - 'view media'
