@@ -147,4 +147,5 @@ config:
         - 'opt-in or out of matomo tracking'
         - 'post comments'
         - 'skip comment approval'
+        - 'use text format basic_html'
         - 'view media'
