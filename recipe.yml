@@ -137,7 +137,6 @@ config:
         - 'access comments'
         - 'access content'
         - 'access site-wide contact form'
-        - 'restful get oai_pmh'
         - 'view media'
     user.role.authenticated:
       grantPermissions:
