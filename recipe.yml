@@ -128,3 +128,7 @@ config:
       simple_config_update:
         page.front: /collections
         name: 'Islandora Recipes Starter Site'
+    system.theme:
+      simple_config_update:
+        default: olivero
+        admin: claro
